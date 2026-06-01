@@ -6,14 +6,8 @@ public class TablaMultiplicar {
         System.out.print("Ingrese un número: ");
         int n = sc.nextInt();
 
-        int i = 1; // Inicializamos el contador fuera del bucle
-
-        // Reemplazamos el 'for' por un 'while' controlado por el contador
-        while (i <= 10) {
+        for (int i = 1; i <= 10; i++) {
             System.out.println(n + " x " + i + " = " + (n * i));
-            i++; // Incrementamos manualmente el contador
         }
-
-        sc.close();
     }
 }
